@@ -14,6 +14,8 @@ Default port is 50050. Wordlist can be supplied via stdin as such:
 cat wordlist.txt | python3 csbruter.py 192.168.1.1
 ```
 
+Tested at up to 138 attempts per second.
+
 ## Issue
 
 Cobalt Strike team server has no mitigation for password brute force
@@ -87,4 +89,5 @@ Valid password:
 [!] Trapped java.io.EOFException during client (192.168.1.1) read [Manage: unauth'd user]: null
 ```
 
-Tested at up to 138 attempts per second.
+An error is thrown because the socket is closed immediately after an
+attempt.
