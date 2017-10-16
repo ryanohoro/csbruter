@@ -5,7 +5,7 @@ Script to brute force Cobalt Strike team server passwords.
 ## Usage
 
 ```
-python3 csbruter.py [-h] [-p PORT] host [wordlist]
+python3 csbruter.py [-h] [-p PORT] [-t THREADS] host [wordlist]
 ```
 
 Default port is 50050. Wordlist can be supplied via stdin as such:
