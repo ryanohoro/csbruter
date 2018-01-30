@@ -21,6 +21,10 @@ Tested at up to 138 attempts per second.
 Cobalt Strike team server has no mitigation for password brute force
 attacks.
 
+### Mitigation Update
+
+Cobalt Strike 3.10 (Released Dec 11, 2017) imposes a 1 second delay between attempts as a mitigation for this attack.
+
 ## Background
 
 The Cobalt Strike team server requires two types of authentication. The
